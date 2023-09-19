@@ -15,10 +15,10 @@ body{
     width: 1080px;
 }
 .main{
-    border: 1px solid red;
-    width: 74.9%;
+    width: 65%;
     position: absolute;
-    left: 25%;
+    left: 30%;
+    color: white;
 }
 
 .img__pic{
@@ -30,7 +30,7 @@ body{
 .aside{
     background-color: #202124;
     position: absolute;
-    width: 25%;
+    width: 30%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -55,7 +55,7 @@ body{
     text-decoration: none;
     color: white;
     margin-top: 30px;
-    background-color: #767676;
+    background-color: #505050;
     padding: 10px;
     border-radius: 10px;
     display: flex;
@@ -64,4 +64,47 @@ body{
 .menu__link:hover{
     background-color: greenyellow;
     color: black;
+}
+
+
+.main__inicio{
+    padding:130px 0 0 70px;
+    text-align: justify;
+}
+.inicio__title{
+    font-size: 2.5rem;
+    margin-bottom: -10px;
+}
+.inicio__nom{
+    display: flex;
+    font-size: 2rem;
+}
+.nom__verd{
+    color: greenyellow;
+}
+.inicio__foo{
+    display: flex;
+    align-items: center;
+}
+.inicio__link{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-color: #505050;
+    border-radius: 30px;
+    padding: 7px;
+    width: 120px;
+}
+.inicio__awe{
+    color: greenyellow;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.inicio__link:hover{
+    color: #202124;
+    background-color: greenyellow;
+}
+.inicio__link:hover .inicio__awe {
+    color: #202124;
 }
