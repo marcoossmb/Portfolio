@@ -1,0 +1,38 @@
+.icono{
+    position: fixed;
+    right: 75px;
+    bottom: 75px;
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/scroll-top-img.png);
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #202124;
+}
+.container{
+    
+    width: 1080px;
+}
+.main{
+    border: 1px solid red;
+    width: 75%;
+    position: absolute;
+    left: 25%;
+}
+
+.img__pic{
+    width: 70px;
+    border-radius: 40px;
+    border: 6px solid greenyellow;
+}
+
+.aside{
+    border: 1px solid greenyellow;
+    position: absolute;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
