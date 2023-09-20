@@ -27,6 +27,7 @@ body{
     flex-direction: column;
     align-items: center;
     padding-top: 100px;
+    margin: -10px;
 }
 .img__pic{
     width: 70px;
@@ -76,7 +77,7 @@ body{
 .main__inicio{
     padding:130px 0 0 70px;
     text-align: justify;
-    margin-bottom: 200px;
+    margin-bottom: 300px;
 }
 .inicio__title{
     font-size: 2.5rem;
@@ -119,7 +120,7 @@ body{
 
 /* second part of the main  */
 .main__me{
-    margin-bottom: 200px;
+    margin-bottom: 300px;
     padding:130px 0 0 70px;
     text-align: justify;
     justify-content: center;
@@ -180,7 +181,7 @@ body{
 
 /* third part of the main */
 .main__training{
-    margin-bottom: 200px;
+    margin-bottom: 300px;
     padding:130px 0 0 70px;
     text-align: justify;
     justify-content: center;
@@ -223,27 +224,27 @@ body{
     border-radius: 100px;
 }
 .training__icon-1{
-    top: 1800px;
-    left: 125px;
+    top: 1970px;
+    left: 185px;
 }
 .training__icon-2{
-    top: 1800px;
-    left: 585px;
+    top: 1970px;
+    left: 770px;
 }
 .training__icon-3{
-    top: 2130px;
-    left: 585px;
+    top: 2300px;
+    left: 185px;
 }
 .training__icon-4{
-    top: 2130px;
-    left: 125px;
+    top: 2300px;
+    left: 770px;
 }
 /* third part of the main finished */
 
 
 /* quarter part of the main */
 .main__portfolio{
-    margin-bottom: 200px;
+    margin-bottom: 300px;
     padding:130px 0 0 70px;
     text-align: justify;
     justify-content: center;
