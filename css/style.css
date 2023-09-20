@@ -203,6 +203,10 @@ body{
     border-radius: 50px;
     width: 50px;
 }
+.training__year:hover{
+    background-color: greenyellow;
+    color: #202124;
+}
 .training__title{
     padding-left: 30px;
 }
@@ -235,3 +239,28 @@ body{
     left: 125px;
 }
 /* third part of the main finished */
+
+
+/* quarter part of the main */
+.main__portfolio{
+    margin-bottom: 800px;
+    padding:130px 0 0 70px;
+    text-align: justify;
+    justify-content: center;
+}
+.portfolio__boxes{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.portfolio__box{
+    margin-right: 25px;
+    margin-left: 25px;
+}
+.portfolio__img{
+    width: 250px;
+}
+.portfolio__img:hover{
+    transform: scale(1.1);
+}
+/* quarter part of the main finished */
