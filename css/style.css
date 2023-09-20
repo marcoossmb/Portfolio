@@ -176,3 +176,62 @@ body{
     font-size: 35px;
 }
 /* second part of the main finished */
+
+
+/* third part of the main */
+.main__training{
+    margin-bottom: 800px;
+    padding:130px 0 0 70px;
+    text-align: justify;
+    justify-content: center;
+}
+.training__boxes{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.training__box{
+    border-left: 1px solid greenyellow;
+    width: 300px;
+    height: 250px;
+    margin-bottom: 60px;
+}
+.training__year{
+    background-color: #202124;
+    padding: 10px 30px 10px 30px;
+    margin-left: 60px;
+    border-radius: 50px;
+    width: 50px;
+}
+.training__title{
+    padding-left: 30px;
+}
+.training__text{
+    text-align: justify;
+    font-size: 14px;
+    padding-left: 30px;
+}
+.training__icon{
+    position: absolute;
+    color: #202124;
+    background-color: greenyellow;
+    padding: 15px;
+    border-radius: 100px;
+}
+.training__icon-1{
+    top: 3000px;
+    left: 125px;
+}
+.training__icon-2{
+    top: 3000px;
+    left: 585px;
+}
+.training__icon-3{
+    top: 3333px;
+    left: 585px;
+}
+.training__icon-4{
+    top: 3333px;
+    left: 125px;
+}
+/* third part of the main finished */
