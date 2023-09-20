@@ -1,3 +1,6 @@
+* {
+    scroll-behavior: smooth;
+}
 .icono{
     position: fixed;
     right: 75px;
@@ -5,7 +8,6 @@
     width: 50px;
     height: 50px;
     background-image: url(../images/scroll-top-img.png);
-    scroll-behavior: smooth;
 }
 body{
     background-color: black;
@@ -14,28 +16,22 @@ body{
 .container{  
     width: 1080px;
 }
-.main{
-    width: 65%;
-    position: absolute;
-    left: 30%;
-    color: white;
-}
 
-.img__pic{
-    width: 70px;
-    border-radius: 40px;
-    border: 7px solid greenyellow;
-}
-
+/* aside */
 .aside{
     background-color: #202124;
-    position: absolute;
+    position: fixed;
     width: 30%;
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 100px;
+}
+.img__pic{
+    width: 70px;
+    border-radius: 40px;
+    border: 7px solid greenyellow;
 }
 .aside__h1{
     font-size: 1.5rem;
@@ -65,11 +61,22 @@ body{
     background-color: greenyellow;
     color: black;
 }
+/* aside finished */
 
 
+.main{
+    width: 65%;
+    position: absolute;
+    left: 30%;
+    color: white;
+}
+
+
+/* first part of the main */
 .main__inicio{
     padding:130px 0 0 70px;
     text-align: justify;
+    margin-bottom: 800px;
 }
 .inicio__title{
     font-size: 2.5rem;
@@ -108,3 +115,64 @@ body{
 .inicio__link:hover .inicio__awe {
     color: #202124;
 }
+/* first part of the main finished*/
+
+/* second part of the main  */
+.main__me{
+    margin-bottom: 800px;
+    padding:130px 0 0 70px;
+    text-align: justify;
+    justify-content: center;
+}
+.me__data{
+    display: flex;
+    margin-left: 35%;
+    margin-bottom: -20px;
+}
+.me__foo{
+    display: flex;
+    align-items: center;
+    margin-left: 35%;
+}
+.me__link{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-color: #505050;
+    border-radius: 30px;
+    padding: 7px;
+    width: 150px;
+    margin-top: 20px;
+}
+.me__link:hover{
+    color: #202124;
+    background-color: greenyellow;
+}
+.me__link:hover .inicio__awe {
+    color: #202124;
+}
+.me__box{
+    width: 80%;
+    margin-top: 30px;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.me__boxes{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px 10px 20px;
+    background-color: #202124;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    width: 120px;
+}
+.mar__bot{
+    margin-bottom: -15px;
+}
+.font__big{
+    font-size: 35px;
+}
+/* second part of the main finished */
